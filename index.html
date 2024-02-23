@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SimpleRussia | Switch country</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ul{
+        list-style: none;
+    }
+    h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .wrap-country{
+display: grid;
+    }
+    .wrap-country-switcher{
+        display: -ms-inline-flexbox;
+        text-align: center;
+    }
+    .country-falg{
+        width: 150px;
+        height: 150px;
+        margin: 30px;
+        filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.42));
+        transition: ease 0.5s;
+
+    }
+
+    .country-falg:hover{
+        transform: scale(120%);
+    }
+</style>
+
+<div class="wrap-country">
+    <ul>
+        <li><h2>Change language</h2></li>
+        <li><div class="wrap-country-switcher">
+            <a href="pages/lng/ru/ru.html"><img class="country-falg" src="pages/flag/ru.svg"></a>
+            <a href="pages/lng/in/in.html"><img class="country-falg" src="pages/flag/in.svg"></a>
+            <a href="pages/lng/uz/uz.html"><img class="country-falg" src="pages/flag/uz.svg"></a>
+            <a href="pages/lng/tj/tj.html"><img class="country-falg" src="pages/flag/tj.svg"></a>
+            <a href="pages/lng/kz/kz.html"><img class="country-falg" src="pages/flag/kz.svg"></a>
+            <a href="pages/lng/cn/cn.html"><img class="country-falg" src="pages/flag/cn.svg"></a>
+            <a href="pages/lng/md/md.html"><img class="country-falg" src="pages/flag/md.svg"></a>
+            <a href="pages/lng/am/am.html"><img class="country-falg" src="pages/flag/am.svg"></a>
+            <a href="pages/lng/az/az.html"><img class="country-falg" src="pages/flag/az.svg"></a>
+            <a href="pages/lng/tr/tr.html"><img class="country-falg" src="pages/flag/tr.svg"></a>
+            <a href="pages/lng/tm/tm.html"><img class="country-falg" src="pages/flag/tm.svg"></a>
+            <a href="pages/lng/vn/vn.html"><img class="country-falg" src="pages/flag/vn.svg"></a>
+        </div></li>
+    </ul>
+
+</div>
+
+
+
+<!--
+ цели
+ язык
+ переходы
+ в график статистику
+
+
+страны:
+    индия
+    узбекистан
+    таджикистан
+    казахстан
+    китай
+    молдова
+    армения
+    айзерабайджан
+    турция
+    туркмения
+    вьетнам
+ -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
