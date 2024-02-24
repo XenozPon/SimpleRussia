@@ -1,1 +1,1 @@
-# https:xenozpon.github.io/SimpleRussia/
+# https://xenozpon.github.io/SimpleRussia/
